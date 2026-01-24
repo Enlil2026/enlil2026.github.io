@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Two equal columns */
+  gap: 10px;
+  position: relative;
+}
+
+blockquote {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  margin: 0 20%;
+}
+
+.yt {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 1px;
+  place-items: center; 
+}
+
