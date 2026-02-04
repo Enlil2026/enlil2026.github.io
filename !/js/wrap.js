@@ -5,7 +5,7 @@ const btn = document.getElementById('toggle-btn');
 const list = document.getElementById('channel-list');
 let isOn = false;
 
-const M3U_URL = 'p/1.m3u'; 
+const M3U_URL = '!/1.m3u'; 
 
 btn.addEventListener('click', () => {
 isOn = !isOn;
