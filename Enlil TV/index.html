@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/video-js.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="180x180" href="favicon/favicon-180x180.png">
+<title>💚Enlil💚TV💚</title>
+<style>
+body { border-radius: 10px; background: #111; color: white; font-family: sans-serif; display: flex; height: 75vh; margin: 0; }
+#sidebar { border-radius: 10px; width: 250px; background: #08770A; overflow-y: auto; border-right: 0px solid #444; }
+.channel { border-radius: 10px; padding: 9px; cursor: pointer; border-bottom: 1px solid #333; font-size: 0.9em; }
+.channel:hover { background: #000; }
+#player-container { height:95%; border-radius: 10px; width: 100%; background: #000000; }
+.video-js {border-radius: 10px;width: 100% !important; height: 100% !important; }
+.controls {border-radius: 10px; padding: 15px; border-bottom: 1px solid #444; }
+button {border-radius: 10px;width: 100%; padding: 10px; cursor: pointer; background: #e50914; color: white; border: 2px; font-weight: bold; }
+.button-size {  border-radius: 10px; width: 100%px; border-color: #fff; font-weight: bold; background-color: #000;}
+.static{  position: static;   }
+</style>
+</head>
+
+<body>
+
+<div id="sidebar">
+<div class="controls"><button id="toggle-btn">TURN TV ON </button><hr>
+<a href="https://cash.app/$Enlilanu"target="_blank"><button class="button-size">💚 Donate 💚</button></a><hr>
+<h3>Channel List</h3>
+</div>
+
+<div id="channel-list"></div>
+
+</div>
+
+<div id="player-container">
+<a href="https://cash.app/$Enlilanu"target="_blank"><button class="button-size">💚Enlil💚TV💚</button></a>
+
+<video id="iptv-player" class="video-js vjs-default-skin" controls preload="auto"></video>
+
+
+</div>
+
+
+<!-- 1. Load Video.js Library -->
+<script src="js/video.min.js"></script>
+
+<!-- 2. App Wrap -->
+<script src="js/wrap.js"></script>
+
+</body>
+
+</html>
