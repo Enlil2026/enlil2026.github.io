@@ -5,7 +5,7 @@ const btn = document.getElementById('toggle-btn');
 const list = document.getElementById('channel-list');
 let isOn = false;
 
-const M3U_URL = '!/1.m3u'; 
+const M3U_URL = 'p/1.m3u'; 
 
 btn.addEventListener('click', () => {
 isOn = !isOn;
@@ -25,7 +25,7 @@ if (!response.ok) throw new Error("File not found");
 const data = await response.text();
 parseM3U(data);
 } catch (err) {
-alert("Error: " + err.message + ". Make sure 'playlist.m3u' is in the same folder.");
+alert("Error: " + err.message + ". Make sure 'list' is in the same folder.");
 }
 }
 
