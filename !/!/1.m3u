@@ -24,8 +24,8 @@ https://fl1.moveonjoy.com/STARZ_EDGE/index.m3u8
 #EXTINF:-1,✔ Syfy
 http://fl1.moveonjoy.com/SYFY/index.m3u8
 
-#EXTINF:-1, Paramount ➕
-https://fl1.moveonjoy.com/cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ff8c708653d080007361b14/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a9f20-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=86df5336-6268-4928-9b7d-3af618ca807b
+#EXTINF:-1, Paramount Picks
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ff8c708653d080007361b14/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a9f20-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=86df5336-6268-4928-9b7d-3af618ca807b
 
 #EXTINF:-1,Paramount Network
 http://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
@@ -43,16 +43,16 @@ https://fl1.moveonjoy.com/MTV_CLASSIC/index.m3u8
 https://fl1.moveonjoy.com/MTV/index.m3u8
 
 #EXTINF:-1,VH-1
-https://fl1.moveonjoy.com/cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d51ddf0369acdb278dfb05e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c298db8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=e11538a9-9480-4566-aae4-83bfe5898920
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d51ddf0369acdb278dfb05e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c298db8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=e11538a9-9480-4566-aae4-83bfe5898920
 
 #EXTINF:-1,Vevo | Hip-Hop
-https://fl1.moveonjoy.com/cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61d4c2817a823d00070ba53e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2ce918-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=90c1dbc6-366d-4ba4-913a-7ff94babe33e
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61d4c2817a823d00070ba53e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2ce918-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=90c1dbc6-366d-4ba4-913a-7ff94babe33e
 
 #EXTINF:-1, Classic Movies
-https://fl1.moveonjoy.com/30a-tv.com/feeds/pzaz/30atvmovies.m3u8
+https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 
 #EXTINF:-1,✔ BET
-
+https://fl1.moveonjoy.com/BET/index.m3u8
 #EXTINF:-1,
 
 #EXTINF:-1,
