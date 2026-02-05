@@ -18,6 +18,8 @@ background-color: #000000;
 
 nav ul li {
 float: left; /* Display list items horizontally */
+font-weight: bold;
+font-size: 23px;
 }
 
 nav ul li a {
@@ -86,6 +88,7 @@ button{
 	border-radius: 10px;
 	float: right;
 	height: 46px;
+	font-weight: bold;
 }
 
 .fixed{
