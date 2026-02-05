@@ -1,7 +1,16 @@
 /* Navigation bar section */
 
 /* Basic CSS for the navigation bar */
-nav {
+
+/* Simple styling to keep the search bar clean */
+    #bookSearch {
+        padding: 5px;
+        margin: 0 10px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+    }
+
+        nav {
 background-color: #1ca329; /* Dark background */
 overflow: hidden; /* Clear floats */
 border-radius: 10px;
