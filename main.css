@@ -5,7 +5,8 @@ nav {
 background-color: #1ca329; /* Dark background */
 overflow: hidden; /* Clear floats */
 border-radius: 10px;
-padding: 10px;
+margin-top: 3px;
+margin-bottom: 3%;
 }
 
 nav ul {
@@ -41,7 +42,8 @@ border-radius: 10px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr; 
 gap: 5px;
-padding: 10px;
+padding: 1px;
+margin-top: 75px;
 
 }
 
@@ -55,7 +57,7 @@ font-size: 48px;
 
 img {
 width: 100%;
-height: 100%;
+height: 98%;
 border-radius: 10px;
 
 }
@@ -78,8 +80,20 @@ p {
 }
 
 button{
+
 	background-color: #000;
 	color: white;
 	border-radius: 10px;
 	float: right;
+}
+
+.fixed{
+
+	position: fixed;
+	top: 0;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+max-width: 100%;
+max-height: 1%;
 }

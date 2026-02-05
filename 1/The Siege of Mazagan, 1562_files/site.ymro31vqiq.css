@@ -1,0 +1,440 @@
+﻿html, body {
+    font-family: "Roboto", "Arial";
+    font-size: 1em;
+    height: 100%;
+    width: 100%;
+}
+
+h1:focus {
+    outline: none;
+}
+
+a, .btn-link {
+    color: #424242;
+}
+
+    a:hover, .btn-link:hover {
+        color: #000000;
+    }
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.content {
+    padding-top: 1.1rem;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+
+.blazor-error-boundary {
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNDkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIG92ZXJmbG93PSJoaWRkZW4iPjxkZWZzPjxjbGlwUGF0aCBpZD0iY2xpcDAiPjxyZWN0IHg9IjIzNSIgeT0iNTEiIHdpZHRoPSI1NiIgaGVpZ2h0PSI0OSIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMCkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMzUgLTUxKSI+PHBhdGggZD0iTTI2My41MDYgNTFDMjY0LjcxNyA1MSAyNjUuODEzIDUxLjQ4MzcgMjY2LjYwNiA1Mi4yNjU4TDI2Ny4wNTIgNTIuNzk4NyAyNjcuNTM5IDUzLjYyODMgMjkwLjE4NSA5Mi4xODMxIDI5MC41NDUgOTIuNzk1IDI5MC42NTYgOTIuOTk2QzI5MC44NzcgOTMuNTEzIDI5MSA5NC4wODE1IDI5MSA5NC42NzgyIDI5MSA5Ny4wNjUxIDI4OS4wMzggOTkgMjg2LjYxNyA5OUwyNDAuMzgzIDk5QzIzNy45NjMgOTkgMjM2IDk3LjA2NTEgMjM2IDk0LjY3ODIgMjM2IDk0LjM3OTkgMjM2LjAzMSA5NC4wODg2IDIzNi4wODkgOTMuODA3MkwyMzYuMzM4IDkzLjAxNjIgMjM2Ljg1OCA5Mi4xMzE0IDI1OS40NzMgNTMuNjI5NCAyNTkuOTYxIDUyLjc5ODUgMjYwLjQwNyA1Mi4yNjU4QzI2MS4yIDUxLjQ4MzcgMjYyLjI5NiA1MSAyNjMuNTA2IDUxWk0yNjMuNTg2IDY2LjAxODNDMjYwLjczNyA2Ni4wMTgzIDI1OS4zMTMgNjcuMTI0NSAyNTkuMzEzIDY5LjMzNyAyNTkuMzEzIDY5LjYxMDIgMjU5LjMzMiA2OS44NjA4IDI1OS4zNzEgNzAuMDg4N0wyNjEuNzk1IDg0LjAxNjEgMjY1LjM4IDg0LjAxNjEgMjY3LjgyMSA2OS43NDc1QzI2Ny44NiA2OS43MzA5IDI2Ny44NzkgNjkuNTg3NyAyNjcuODc5IDY5LjMxNzkgMjY3Ljg3OSA2Ny4xMTgyIDI2Ni40NDggNjYuMDE4MyAyNjMuNTg2IDY2LjAxODNaTTI2My41NzYgODYuMDU0N0MyNjEuMDQ5IDg2LjA1NDcgMjU5Ljc4NiA4Ny4zMDA1IDI1OS43ODYgODkuNzkyMSAyNTkuNzg2IDkyLjI4MzcgMjYxLjA0OSA5My41Mjk1IDI2My41NzYgOTMuNTI5NSAyNjYuMTE2IDkzLjUyOTUgMjY3LjM4NyA5Mi4yODM3IDI2Ny4zODcgODkuNzkyMSAyNjcuMzg3IDg3LjMwMDUgMjY2LjExNiA4Ni4wNTQ3IDI2My41NzYgODYuMDU0N1oiIGZpbGw9IiNGRkU1MDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvZz48L3N2Zz4=) no-repeat 1rem/1.8rem, #b32121;
+    padding: 1rem 1rem 1rem 3.7rem;
+    color: white;
+}
+
+    .blazor-error-boundary::after {
+        content: "An error has occurred."
+    }
+
+.mudButtonPrimary {
+    background-color: #144787;
+    color: white;
+}
+
+    .mudButtonPrimary:hover {
+        background-color: #0a3161;
+        color: white;
+    }
+
+div.quote {
+    font-family: Arial, Verdana;
+    border: 1px solid;
+    border-color: dodgerblue;
+    background-color: #f4f4f4;
+    font-size: 1em;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.hoverunderline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #0162a6;
+}
+
+.mainbackground {
+    background-color: #ffffff;
+}
+
+.mainlightbackground {
+    background-color: #efeeed;
+}
+
+.mainbutton {
+    background-color: #e1e1e1;
+    border: 1px solid;
+    border: #000000;
+}
+
+    .mainbutton:hover {
+        background-color: #cccccc;
+        border: 1px solid;
+        border: #efeeed;
+    }
+
+.mainborder {
+    border: 1px solid #e0dfdc;
+}
+
+.forumbackground {
+    background-color: #fafafa;
+}
+
+.forumlightbackground {
+    background-color: #ffffff;
+}
+
+.mud-nav-link-text {
+    color: #424242;
+}
+
+.forumbutton {
+    background-color: #efeeed;
+}
+
+.forumborder {
+    border: 1px solid;
+    border-color: #424242;
+}
+
+.forumlink {
+    color: #424242;
+}
+
+    .forumlink:hover {
+        color: #424242;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+.forumlinkicon {
+    color: #424242;
+}
+
+    .forumlinkicon:hover {
+        color: #424242;
+        cursor: pointer;
+    }
+
+.mud-theme-primary {
+    color: red;
+}
+
+.rz-html-editor-content {
+    background-color: #efeeed !important;
+}
+
+.rz-html-editor-toolbar {
+    background-color: #efeeed !important;
+}
+
+.rz-html-editor-button {
+    border: 1px solid !important;
+    border-color: #424242 !important;
+    background-color: #efeeed !important;
+}
+
+.mud-input.mud-input-outlined:focus-within .mud-input-outlined-border {
+    border-color: #283573;
+}
+
+.add-button:hover a {
+    background-color: #c7c6c0;
+}
+
+.genealogy-tab {
+    background-color: #ffffff;
+}
+
+.genealogy-tab2 {
+    background-color: #f0f0f0;
+}
+
+.form-fields {
+    font-size: 8px;
+}
+
+.articleTitle {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.articleTitleLink {
+    color: #172460;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+
+    .articleTitleLink:hover {
+        color: #000000;
+        font-weight: bold;
+        font-size: 1.1em;
+        text-decoration: underline;
+    }
+
+.pageTitle {
+    background-color: #283573;
+    width: 100%;
+    color: white;
+    vertical-align: middle;
+    word-wrap: break-word;
+    padding: 10px;
+}
+
+
+/* genealogy */
+.indivComments {
+    font-style: italic;
+    padding-left: 15px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.color-primary {
+    color: #283573 !important;
+}
+
+    .color-primary:hover {
+        color: #283573 !important;
+        text-decoration: underline !important;
+        cursor: pointer;
+    }
+
+.articlesLeftMargin {
+    margin-left: -15px;
+}
+
+.white-editor .rz-html-editor-content {
+    background: white !important;
+    background-color: white !important;
+}
+
+.rz-html-editor-button.rz-selected {
+    background-color: #283573 !important;
+}
+
+.rz-html-editor-button {
+    background-color: white !important;
+}
+
+.mud-dialog-width-sm{
+    max-width: 700px !important;
+}
+
+.left-panel {
+    width: 300px; /* or any fixed value */
+    min-width: 300px;
+    flex-shrink: 0;
+}
+/*.mud-nav-link-override {
+    text-align: center !important;
+    margin-inline-start: 0px !important;
+}
+
+.mud-nav-item {
+    width: 10% !important;
+}*/
+
+.three-column-layout {
+    display: grid;
+    /* 1 row for banner, 1 row for columns */
+    grid-template-rows: auto 1fr;
+    /* 3-column structure: 20 / 60 / 20 */
+    grid-template-columns: 20% 60% 20%;
+    /* Placement of grid areas */
+    grid-template-areas:
+        "banner banner banner"
+        "left   main   right";
+    width: 100%;
+    min-height: 100vh; /* full height */
+}
+
+.two-column-layout {
+    display: grid;
+    /* 1 row for banner, 1 row for columns */
+    grid-template-rows: auto 1fr;
+    /* 3-column structure: 20 / 80*/
+    grid-template-columns: 20% 80%;
+    /* Placement of grid areas */
+    grid-template-areas:
+        "banner banner banner"
+        "left   main   right";
+    width: 100%;
+    min-height: 100vh; /* full height */
+}
+
+/* Banner spans the entire width */
+.top-banner {
+    grid-area: banner;
+    background: #f7f7f7; /* or whatever */
+    color: white;
+    padding: 16px 2px 0px 2px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Columns */
+.left-column {
+    background: #f7f7f7; /* or whatever */
+    padding: 6px 0px 12px 14px;
+    box-sizing: border-box;
+}
+
+.main-column {
+    background: #f7f7f7; /* or whatever */
+    padding: 6px 8px 12px 8px;
+    box-sizing: border-box;
+}
+
+.right-column {
+    background: #f7f7f7;
+    padding: 6px 2px 12px 0px;
+    box-sizing: border-box;
+}
+
+/* One unified scroll */
+.left-column,
+.main-column,
+.right-column,
+.top-banner {
+    overflow: visible;
+}
+
+.blue-background {
+    background: #1d2653 !important;
+    color: #ffffff !important;
+}
+
+.blue-foreground {
+    color: #1d2653 !important;
+}
+.mud-tab-slider {
+    background-color: #1d2653 !important;
+}
+
+.mud-tab.mud-tab-active {
+    color: #1d2653 !important; 
+}
+
+.mud-tab-animation {
+    display: none !important;
+}
+
+.mud-input-underline:after {
+    border-bottom-color: #1d2653 !important; 
+}
+
+.mud-input-label {
+    color: #1d2653 !important;
+}
+
+.mud-input-outlined.mud-input-focused .mud-input-outlined-border {
+    border-color: #1d2653 !important; 
+}
+
+.mud-input-outlined .mud-input-outlined-border {
+    border-color: #1d2653 !important;
+}
+
+.nav-active {
+    color: #1d2653 !important;
+    background-color: #e8e8e8 !important;
+    font-weight: bold;
+    border-bottom: 2px solid #ffcc00;
+}
+
+@media (max-width: 768px) {
+    .left-column,
+    .right-column {
+        display: none !important;
+    }
+    .main-column {
+        width: 100% !important;
+    }
+    .three-column-layout {
+        grid-template-columns: 1fr !important; /* only 1 column */
+        grid-template-areas:
+            "banner"
+            "main" !important;
+    }
+    .two-column-layout {
+        grid-template-columns: 1fr !important; /* only 1 column */
+        grid-template-areas:
+            "banner"
+            "main" !important;
+    }
+}
+
+blockquote {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: .5rem 1rem;
+    border-left: 3px solid #aaa;
+}
+
+.genealogy-tab3 {
+    border-left: 1px solid rgba(0,0,0,0.20); /* adjust opacity as needed */
+    margin-left: 8px; /* spacing before divider */
+    padding-left: 8px; /* spacing after divider */
+}
+
+.wrap-url {
+    overflow-wrap: break-word;
+}
+
+.mainbreadcrumb {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+
+    padding-top: 0.45rem;
+    padding-bottom: 0.6rem;
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+}
