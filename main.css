@@ -7,6 +7,7 @@ overflow: hidden; /* Clear floats */
 border-radius: 10px;
 margin-top: 3px;
 margin-bottom: 3%;
+max-height: 54.9px;
 }
 
 nav ul {
@@ -19,7 +20,7 @@ background-color: #000000;
 nav ul li {
 float: left; /* Display list items horizontally */
 font-weight: bold;
-font-size: 23px;
+font-size: 20px;
 }
 
 nav ul li a {
