@@ -9,32 +9,22 @@
 <link rel="icon" type="image/png" sizes="180x180" href="favicon/favicon-180x180.png">
 <link rel="stylesheet" type="text/css" href="main.css">
 <title>Books</title>
-<style>
-    /* Simple styling to keep the search bar clean */
-    #bookSearch {
-        padding: 5px;
-        margin: 0 10px;
-        border-radius: 4px;
-        border: 1px solid #ccc;
-    }
-</style>
+
 </head>
 
 <body>
 
 <div class="fixed">
 <nav aria-label="Main Navigation">
-<ul>
-
 <!-- Search Input Added Here -->
-<li><input type="text" id="bookSearch" onkeyup="filterBooks()" placeholder="Search titles..."></li>
-</ul>
+<input type="text" id="bookSearch" onkeyup="filterBooks()" placeholder="Search titles...">
 <a href="https://cash.app/$Enlilanu" target="_blank"><button>💚 Donate 💚</button></a>
 </nav>
 </div>
 
-<div class="container">
-    <a href="1/History & Research_ Morocco_Internet Archive.html">
+<div class="container" id="bookGrid">
+
+    <a href="History & Research_ Morocco_Internet Archive.html">
 <img src="img/history-of-morocco.jpg" alt="History of Morocco" />
 </a>
 
