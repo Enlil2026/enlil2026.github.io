@@ -116,8 +116,8 @@
 <img src="img/Hoopers_A._KAMASUTRA._Sex_PositionsBookFi.jpg" alt="Clickable Image Description" />
 </a>
 
-<a href="content/Blacks Law 6th Edition - SecA.pdf">
-<img src="img/Blacks Law 6th Edition - SecA.jpg" alt="Clickable Image Description" />
+<a href="content/Blacks Law 6th Edition.pdf">
+<img src="img/Blacks Law 6th Edition.jpg" alt="Clickable Image Description" />
 </a>
 
 <a href="content/The Synagogue of Satan - Andrew Carrington Hitchcock.pdf">
@@ -144,27 +144,12 @@
 <img src="img/SPIRITUAL CLEANSING.jpg" alt="Clickable Image Description" />
 </a>
 
-<a href="https://archive.org/download/blue-and-sun-lights-their-influence-upon-life-disease-c.-by-gen.-a.-j.-pleasonton/Blue%20And%20Sun-Lights%20Their%20Influence%20Upon%20Life%2C%20Disease%2C%20%26c.%20by%20Gen.%20A.%20J.%20Pleasonton.pdf">
+<a href="https://archive.org/download/blue-and-sun-lights-their-influence-upon-life-disease-c.-by-gen.-a.-j.-pleasonton/Blue%20And%20Sun-Lights%20Their%20Influence%20Upon%20Life%2C%20Disease%2C%20%26c.%20by%20Gen.%20A.%20J.%20Pleasonton.pdf" target="_blank">
 <img src="img/Blue And Sun-Lights Their Influence Upon Life, Disease, &c. by Gen. A. J. Pleasonton.jpg" alt="Clickable Image Description" />
 </a>
 </div>
 
-<script>
-function filterBooks() {
-    let input = document.getElementById('bookSearch').value.toLowerCase();
-    let container = document.getElementById('bookGrid');
-    let links = container.getElementsByTagName('a');
-
-    for (let i = 0; i < links.length; i++) {
-        let img = links[i].getElementsByTagName('img')[0];
-        if (img) {
-            let title = img.getAttribute('alt').toLowerCase();
-            // Shows/hides the entire link (the book cover)
-            links[i].style.display = title.includes(input) ? "" : "none";
-        }
-    }
-}
-</script>
+<script src="js/search.js"> </script>
 
 </body>
 </html>
