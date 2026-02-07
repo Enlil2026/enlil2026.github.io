@@ -14,8 +14,8 @@
     width: 100%; /* Set the width of your container */
     height: 100%; /* Set the height of your container */
     border: 1px solid black; /* Optional: adds a border to the container */
-    margin-top: -150px;
-    
+    margin-top: -175px;
+    margin-right: 100px;
   }
 
 
