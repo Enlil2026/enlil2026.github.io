@@ -8,13 +8,13 @@
 	float: left;
 	margin-left: 100px;
 
-}
+
 
 #website-container2 {
     width: 100%; /* Set the width of your container */
-    height: 100%; /* Set the height of your container */
+    height: 150%; /* Set the height of your container */
     border: 1px solid black; /* Optional: adds a border to the container */
-    margin-top: -165px;
+    margin-top: -195px;
     margin-right: 100px;
   }
 
