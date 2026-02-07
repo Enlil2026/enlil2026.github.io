@@ -4,10 +4,23 @@
 
 /* Mobile specific tweaks */
 
+#website-container {
+    width: 100%; /* Set the width of your container */
+    height: 100%; /* Set the height of your container */
+    border: 1px solid black; /* Optional: adds a border to the container */
+    margin-top: 65px;
+    margin-right: 100px;
+  }
+
+iframe {
+    width: 100%; /* Makes the iframe fill the width of its container */
+    height: 900px; /* Makes the iframe fill the height of its container */
+    border: none; /* Optional: removes the default iframe border */
+  }
+
 input[type="text"] {
   color: #ffffff; /* Using a HEX code (red) */
 }
-
 
 
 #bookSearch { /* Search goes to bottom row on tiny phones */
