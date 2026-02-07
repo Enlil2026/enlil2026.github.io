@@ -4,6 +4,12 @@
 
 /* Mobile specific tweaks */
 
+#homebutton{
+	float: left;
+	margin-right: 10px;
+}
+
+
 #website-container {
     width: 100%; /* Set the width of your container */
     height: 100%; /* Set the height of your container */
