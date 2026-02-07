@@ -12,9 +12,9 @@
 
 #website-container2 {
     width: 100%; /* Set the width of your container */
-    height: 150%; /* Set the height of your container */
+    height: 100%; /* Set the height of your container */
     border: 1px solid black; /* Optional: adds a border to the container */
-    margin-top: -210px;
+    margin-top: -250px;
     margin-right: 100px;
   }
 
