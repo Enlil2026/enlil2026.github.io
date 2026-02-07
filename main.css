@@ -4,9 +4,9 @@
 
 /* Mobile specific tweaks */
 
-#homebutton {
+.homebutton {
 	float: left;
-	margin-right: 10px;
+	margin-left: 100px;
 
 }
 
@@ -14,9 +14,8 @@
     width: 100%; /* Set the width of your container */
     height: 100%; /* Set the height of your container */
     border: 1px solid black; /* Optional: adds a border to the container */
-        margin-top: -150px;
-
-    margin-right: 100px;
+    margin-top: -150px;
+    
   }
 
 
@@ -133,6 +132,14 @@ width: 100%;
 
 button{
 
+background-color: #000;
+color: white;
+border-radius: 10px;
+height: 54.9px;
+font-weight: bold;
+}
+
+.d-button{
 background-color: #000;
 color: white;
 border-radius: 10px;
