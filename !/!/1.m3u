@@ -1,0 +1,121 @@
+#EXTM3U
+
+#EXTINF:-1,SHOWTIME WOMEN
+https://fl1.moveonjoy.com/SHOWTIME_WOMEN/index.m3u8
+
+#EXTINF:-1,SHOWTIME
+https://fl1.moveonjoy.com/SHOWTIME/index.m3u8
+
+#EXTINF:-1,SHOWTIME 2 | 552
+https://fl1.moveonjoy.com/SHOWTIME_2/index.m3u8
+
+#EXTINF:-1,SHOWTIME EXTREME | 554
+https://fl1.moveonjoy.com/SHOWTIME_EXTREME/index.m3u8
+
+#EXTINF:-1,Starz Encore Action | 603
+https://fl1.moveonjoy.com/STARZ_ENCORE_ACTION/index.m3u8
+
+#EXTINF:-1,Starz Comedy | 586
+https://fl1.moveonjoy.com/STARZ_COMEDY/index.m3u8
+
+#EXTINF:-1,Starz Edge | 582
+https://fl1.moveonjoy.com/STARZ_EDGE/index.m3u8
+
+#EXTINF:-1,✔ Syfy
+http://fl1.moveonjoy.com/SYFY/index.m3u8
+
+#EXTINF:-1, Paramount Picks
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ff8c708653d080007361b14/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a9f20-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=86df5336-6268-4928-9b7d-3af618ca807b
+
+#EXTINF:-1,Paramount Network
+http://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
+
+#EXTINF:-1,Nickelodeon
+https://fl1.moveonjoy.com/NICKELODEON/index.m3u8
+
+#EXTINF:-1,NickToons
+https://fl1.moveonjoy.com/NICKTOONS/index.m3u8
+
+#EXTINF:-1,MTV Classic
+https://fl1.moveonjoy.com/MTV_CLASSIC/index.m3u8
+
+#EXTINF:-1,MTV
+https://fl1.moveonjoy.com/MTV/index.m3u8
+
+#EXTINF:-1, Classic Movies
+https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
+
+#EXTINF:-1,✔ BET
+https://fl1.moveonjoy.com/BET/index.m3u8
+
+#EXTINF:-1 group-title="Movies",70's Cinema
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4d878d3d19b30007d2e782/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c263252-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7c57f1f3-2078-4f92-a4b5-6cd444220a70
+
+#EXTINF:5878,Greenland 2 (2026)
+https://p.10015.workers.dev/cloudspark91.live/file2/uXyruQhylj0i6nUSuFx784CXEXF20xdubGb6j4hzAGhsflkw4jyTOBUD5iQZQJ1wfw+Xctr6WUTf5XxsESmOjeJPMIrn3gfuUo7j878a5fQ42pQEukV5ZFhijZrHvHI8iS+m1HX1ytktM+I+bcHbaPfVKA4fLpgtnmdDNyzsThk=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
+#EXTINF:4320,Afterlight (2025)
+https://p.10015.workers.dev/dewshine74.xyz/file2/SzxN9P+0UeNfX69DkM+AKImqJVI3Yblhbm2jgvVKZGQHgs+Bz9sSmYt8NLpN48TnqEs54A+uVCsfeC8uRZhaA3d0XfB0WP4bg5vkpo5R8nuWg30N~tI3ZN2igwo7cGZALP0dC66L9EDaIs4BiS2BXancYgSwSfiWSJc5abwqEmQ=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
+#EXTINF:5895,The Plague (2025)
+https://p.10015.workers.dev/cloudspark91.live/file2/QhdmRShc2CqvVukGEK~sl7lkKGQ965iFQCwmW~PIHpUxAtLPjf55IE0aOAPgA+56wWAyBm0lfpc90KciYMnVn9e5NRC~zF4kU5lZzZj6HHycFPa4TJeGJHSYlMNMbMCoStXr9MSt52xRDrlvTezsJs75YA+kDjNDBuNy6hJkxrs=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
+#EXTINF:5694,We Bury the Dead (2025)
+https://p.10015.workers.dev/sunmelt27.xyz/file2/fFdwlD1YU3SP7FsIeBTBNxVq5uBNuNg780~Ac~rUBs44gOxnTUXsg2j+lqXjSF2RsLi+LhX3zwdnqjiNYYBVyONZ6Q+fIwJOKlRzNfw4Ua0iPLVCOlB1DCoPbagMQNqnTApdWhW4rDNdhNJCa0GD0JVr+OkCVQ9L3ycOgcwP0CQ=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
+#EXTINF:6611,The Residence (2025)
+https://p.10015.workers.dev/afc7d47f/uz5gyMPGU9TVujalv1-l0uhKb9jQL1k5rzG7-oDhK5gk2nJyjz8_dMlyOEJWPLYX-YanzFAw_9Y3YNRvYuuoivk87a4b_maTbLyW5A3ZZjLjBY2fnygQKtUNavma4JedvV6YehHd8-nOFybMIR1KJZ9lyjIjtXArIX6U9P393dCfnhts2jCw1HC_Olmgrtum4WFBlQeiOSLxh_NSlWv3YqZRb4XihBMGTv_XDpGPMqbbmlzgyOcuUZiCqawN9qA2NFEVsyYUH_H8YWA9d8iZXOnF-cqM5ciPbvXCgvoq_GitksEEvmpX6oaPx3dJlVFIFkncXyVNBqcOA5rxzOydibfUm2gIK4nQnAz774BFa0hn4MEuZ0OChFiyOxlT579lLhZXwsNGuaTRBRE7yramiA.m3u8
+#EXTINF:6043,Jason Statham Shelter (2026)
+https://p.10015.workers.dev/hailmist36.pro/file2/ubO6KspoAJN3obHgDNXBprgDMDp9CwrsA3OsoSGoTMkP+aGwzsV15z2pe65~su+KNxLnbVoRqo3SKNyX1h~kQe8uQrjQViAq66pO4koo7eQqChugmfnrMFB89+5ts1ihlUoyBcYnEMfj5VEC0XRhIW68enyl8utN~5210ezojO8=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
+#EXTINF:7266,Iron Lung (2026)
+https://p.10015.workers.dev/sunmelt27.xyz/file2/I5+GU7DYRdsgf~JVyYUMsfEx6~abxhTwjbZuClQtfykhXcwY2fUW2lJu9LMT2rbYkwDd6uWw6RLHnM~w5dCOpAq475stLvG237uvqK3jASTDDraL0GV86SRG4tu0MPubcvW0ahkxr3aL8fUEssSOU6q5kl4VBMK9r2izEIhdd8w=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
+#EXTINF:7456,The Wrecking Crew (2026)
+https://p.10015.workers.dev/stormgleam42.xyz/file2/KE0J10oZE5dIJLrwXfElQQd6yZgh+TKN3Ym3ahw~fKz1qUAcIOtMxgIIE4ibBA0ZA5ezypwKweFHgsk20cEMBciqgqCOw1jbAwKvKHqOv6O+5VYJeubHLvT7CCerFtMzaJnCdp3vk6Jujz53X1Nr+~wwNYEv8bY6Hv9Xpg1eXoU=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
+#EXTINF:8699,Marty Supreme (2025)
+https://p.10015.workers.dev/dewshine74.xyz/file2/7N9ucqj3P+opsMqym+ykcDRHB~b8j7VeIINkPc2vC~1MbLyZ+aCdxQQu6KqJa5xWwzqsLyMtNxmeCYi3WlOpbh9iV9JHbPcoZhZU8LXYq+inDng~ArHvVLemoyehTVEnsh1QbhHuhKmWOtNO75i1BQ==/MTA4MA==/aW5kZXgubTN1OA==.m3u8
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
+
+#EXTINF:-1,
