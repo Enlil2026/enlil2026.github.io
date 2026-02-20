@@ -19,21 +19,14 @@ location.reload();
 });
 
 async function loadPlaylist() {
-  try {
-    const response = await fetch(M3U_URL, {
-      method: 'GET',
-      mode: 'cors', // Explicitly request CORS mode
-      headers: {
-        'Accept': 'application/x-mpegURL, text/plain'
-      }
-    });
-    if (!response.ok) throw new Error("File not found or CORS block");
-    const data = await response.text();
-    parseM3U(data);
-  } catch (err) {
-    console.error("CORS Error:", err);
-    alert("CORS Error: The server hosting the playlist is blocking access.");
-  }
+try {
+const response = await fetch(M3U_URL);
+if (!response.ok) throw new Error("File not found");
+const data = await response.text();
+parseM3U(data);
+} catch (err) {
+alert("Error: " + err.message + ". Make sure 'list' is in the same folder.");
+}
 }
 
 function parseM3U(content) {
@@ -48,8 +41,7 @@ const div = document.createElement('div');
 div.className = 'channel';
 div.innerText = name;
 div.onclick = () => {
-player.src({ type: 'application/x-mpegURL', src: url });
-crossOrigin: 'anonymous'
+player.src({ type: 'application/x-mpegURL', src: url, crossOrigin: 'anonymous' });
 player.play();
 };
 list.appendChild(div);
@@ -58,4 +50,3 @@ list.appendChild(div);
 });
 }
 });
-
