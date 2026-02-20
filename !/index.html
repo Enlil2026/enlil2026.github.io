@@ -28,6 +28,7 @@ button {border-radius: 10px;width: 100%; padding: 10px; cursor: pointer; backgro
 <div id="sidebar">
 <div class="controls"><button id="toggle-btn">TURN TV ON </button><hr>
 <a href="https://cash.app/$Enlilanu"target="_blank"><button class="button-size">💚 Donate 💚</button></a><hr>
+<input type="text" id="channel-search" placeholder="Search channels..." onkeyup="filterChannels()">
 <h3>Channel List</h3>
 </div>
 
@@ -49,6 +50,9 @@ button {border-radius: 10px;width: 100%; padding: 10px; cursor: pointer; backgro
 
 <!-- 2. App Wrap -->
 <script src="js/wrap.js"></script>
+
+<!-- 3. Search Logic -->
+<script src="js/search.js"></script>
 
 </body>
 
