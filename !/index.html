@@ -14,6 +14,7 @@ body { border-radius: 10px; background: #111; color: white; font-family: sans-se
 #sidebar { border-radius: 10px; width: 250px; background: #08770A; overflow-y: auto; border-right: 0px solid #444; }
 .channel { border-radius: 10px; padding: 9px; cursor: pointer; border-bottom: 1px solid #333; font-size: 0.9em; }
 .channel:hover { background: #000; }
+.channel.active {background: #000; }
 #player-container { height:95%; border-radius: 10px; width: 100%; background: #000000; }
 .video-js {border-radius: 10px;width: 100% !important; height: 100% !important; }
 .controls {border-radius: 10px; padding: 15px; border-bottom: 1px solid #444; }
@@ -53,6 +54,9 @@ button {border-radius: 10px;width: 100%; padding: 10px; cursor: pointer; backgro
 
 <!-- 3. Search Logic -->
 <script src="js/search.js"></script>
+
+<!-- 4. Onclick Logic -->
+<script src="js/onclick.js" defer></script>
 
 </body>
 
