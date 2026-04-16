@@ -66,12 +66,31 @@
   <div class="card">
     <h2>Enlil-TV Views</h2>
     <span id="display-count">0</span>
-    <button id="reset-btn" onclick="resetCounter()">RESET DASHBOARD</button>
+<button id="reset-btn" onclick="resetCounter()">RESET DASHBOARD</button>
   </div>
 
-    <script src="../js/counter.js"></script>
+    
 <script>
-    displayCounter(); // Just show the number when this page loads
+    // Change this to the actual URL where you uploaded the PHP file
+const API_URL = 'http://410.atwebpages.com';
+
+// 1. Fetch the count on page load
+fetch(API_URL)
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById('display-count').innerText = data.value;
+  })
+  .catch(err => console.error("Could not load count:", err));
+
+// 2. Handle the Reset Button
+function resetCounter() {
+  fetch(`${API_URL}?action=reset`)
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('display-count').innerText = data.value;
+    });
+}
+
 </script>
 
 

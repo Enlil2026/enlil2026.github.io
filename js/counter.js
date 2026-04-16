@@ -1,29 +1,23 @@
-// Function to update and save the count
-function updateCounter() {
-    let count = localStorage.getItem('totalPageViews') || 0;
-    count = parseInt(count) + 1;
-    localStorage.setItem('totalPageViews', count);
+// Function to update and save the global count via PHP
+async function updateCounter() {
+    try {
+        // We fetch the 'counter.php' script you just created
+        const response = await fetch('counter.php');
+        const globalCount = await response.text();
+        
+        displayCounter(globalCount);
+    } catch (error) {
+        console.error("Error updating global counter:", error);
+    }
 }
 
 // Function to show the count on the screen
-function displayCounter() {
+function displayCounter(count) {
     const display = document.getElementById('display-count');
     if (display) {
-        display.innerText = localStorage.getItem('totalPageViews') || 0;
+        display.innerText = count || 0;
     }
 }
 
-// Check for the "storage" event to update across tabs
-window.addEventListener('storage', (event) => {
-    if (event.key === 'totalPageViews') {
-        displayCounter();
-    }
-});
-
-// Function to clear everything
-function resetCounter() {
-    if (confirm("Are you sure you want to clear the data?")) {
-        localStorage.removeItem('totalPageViews');
-        displayCounter(); // Update the screen to show 0
-    }
-}
+// Initialize when the page loads
+updateCounter();
