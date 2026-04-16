@@ -64,7 +64,7 @@
 <body>
 
   <div class="card">
-    <h2>Total Page Views</h2>
+    <h2>Main Page Views</h2>
     <span id="display-count">0</span>
     <button id="reset-btn" onclick="resetCounter()">RESET DASHBOARD</button>
   </div>
@@ -74,7 +74,16 @@
     displayCounter(); // Just show the number when this page loads
 </script>
 
+<div class="card">
+    <h2>Enliltv Page Views</h2>
+    <span id="enliltv-count">0</span>
+    <button id="reset-btn" onclick="resetCounter()">RESET DASHBOARD</button>
+  </div>
 
+  <script src="../js/enliltvcounter.js"></script>
+<script>
+    displayCounter(); // Just show the number when this page loads
+</script>
 
 </body>
 </html>
