@@ -7,7 +7,7 @@ function updateCounter() {
 
 // Function to show the count on the screen
 function displayCounter() {
-    const display = document.getElementById('enliltv-count');
+    const display = document.getElementById('display-count');
     if (display) {
         display.innerText = localStorage.getItem('totalPageViews') || 0;
     }
