@@ -1,0 +1,84 @@
+<!index.html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Connecting Dots</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle at center, #1a1a2e 0%, #0f0f1a 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Segoe UI', sans-serif;
+            overflow: hidden;
+        }
+
+        .video-container {
+            position: relative;
+            width: 90%;
+            max-width: 1080px;
+            aspect-ratio: 16 / 9;
+            box-shadow: 0 0 50px rgba(0, 162, 255, 0.2);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Subtle background animation */
+        body::before {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: move 100s linear infinite;
+            z-index: -1;
+        }
+
+        @keyframes move {
+            from { transform: translate(0, 0); }
+            to { transform: translate(-50px, -50px); }
+        }
+
+        .video-wrapper {
+    position: relative; /* Acts as the anchor for the title */
+    width: 100%;
+    max-width: 1080px;
+}
+
+.video-title {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 10; /* Ensures it stays on top of the video */
+    pointer-events: none; /* Allows clicks to pass through to the video play button */
+}
+    </style>
+</head>
+<body>
+<div class="video-wrapper">
+    <div class="video-container">
+    	<h2 class="video-title">Rod Was Rite</h2>
+ <iframe src="https://enlil2026.github.io/410/rodwasrite.mp4" allowfullscreen> </iframe>
+    </div>
+
+</body>
+</html>
