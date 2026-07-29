@@ -27,7 +27,7 @@
             
             try {
                 // Fetch the current folder directory from the server
-                const response = await fetch('/'); 
+                const response = await fetch('/!'); 
                 
                 if (!response.ok) {
                     throw new Error('Directory browsing might be disabled on your server.');
@@ -48,7 +48,7 @@
                 let fileCount = 0;
 
                 // Define supported music extensions
-                const allowedExtensions = ['.mp3', '.wav', '.ogg', '.m4a', '.flac'];
+                const allowedExtensions = ['.m3u','.mp3', '.wav', '.ogg', '.m4a', '.flac'];
 
                 for (let link of links) {
                     const href = link.getAttribute('href');
